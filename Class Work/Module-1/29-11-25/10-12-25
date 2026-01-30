@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int num;
+    int a=100;
+    int b=70;
+    int c=120;
+    
+    printf("\n enter your num: \n enter 1 for pizza \n enter 2 for burger /n enter 3 for coffee");
+    scanf("%d",&num);
+    
+    switch(num)
+    {
+    case 1:printf("\n your order is pizza");
+    break;
+    case 2:printf("\n your order is burger");
+    break;
+    case 3:printf("\n your order is coffee");
+    break;
+    default:printf("\n item is not available");
+    }
+    
+    if(num==1)
+    {
+        printf("\n your bill is 100");
+    }
+    if(num==2)
+    {
+        printf("\n your bill is 70");
+    }
+    if(num==3)
+    {
+        printf("\n your bill is 120");
+    }
+    
+    
+    getch();
+}

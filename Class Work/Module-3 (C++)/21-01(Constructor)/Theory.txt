@@ -1,0 +1,10 @@
+
+constructor: method having a same as a classname
+
+-> when i will create object constructor 
+will automatically
+
+Types of constructor
+1)default
+2)parameterized
+3)copy
