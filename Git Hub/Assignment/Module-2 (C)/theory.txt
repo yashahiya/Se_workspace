@@ -1,0 +1,52 @@
+Q.1->Write an essay covering the history and evolution of C programming. Explain its importance and why it is still used today
+ANS->The C programming language is one of the most influential and widely used programming languages in the history of computer science. It has played a crucial role in the development of modern software systems and programming languages.
+
+Q.2->Research and provide three real-world applications where C programming is extensively used, such as in embedded systems, operating systems, or game development
+ANS->Operating Systems: C is used to develop kernels like UNIX, Linux, and Windows because it provides fast execution and direct hardware access.Embedded Systems: Microcontrollers, IoT devices, and automotive systems use C for its efficiency and low memory usage.
+
+Q.3->Describe the steps to install a C compiler (e.g., GCC) and set up an Integrated Development Environment (IDE) like DevC++, VS Code, or CodeBlocks.
+ANS->Installing GCC and setting up an IDE makes C programming easier by providing tools for coding, compiling, and debugging. IDEs like Dev-C++, CodeBlocks, and VS Code simplify development for beginners and professionals.
+
+Q.4->Explain the basic structure of a C program, including headers, main function, comments, data types, and variables. Provide examples.
+ANS->A C program has a simple and well-defined structure. It begins with header files (like #include <stdio.h>) which provide predefined functions. The main() function is the entry point where program execution starts.
+
+Q.5->Write notes explaining each type of operator in C: arithmetic, relational, logical, assignment, increment/decrement, bitwise, and conditional operators.
+ANS->Logical operators combine multiple conditions, and assignment operators assign values to variables. Increment and decrement operators increase or decrease a value by one. Bitwise operators work at the bit level, and the conditional (ternary) operator is a short form of the if-else statement used for decision making.
+
+Q.6->Explain decision-making statements in C (if, else, nested if-else, switch). Provide examples of each.
+ANS->Decision-making statements in C are used to control the flow of a program based on conditions. The if statement executes a block of code when a condition is true, while else runs when the condition is false.
+
+Q.7->Compare and contrast while loops, for loops, and do-while loops. Explain the scenarios in which each loop is most appropriate.
+ANS->A for loop is best when the number of iterations is fixed or known, as initialization, condition, and increment are written in one line. A do-while loop executes the loop body at least once because the condition is checked after execution, making it useful when the loop must run at least one time (such as menu-driven programs).
+
+Q.8->Explain the use of break, continue, and goto statements in C. Provide examples of each.
+ANS->break stop the loop
+continue skip current loop step
+goto jump to a label (use carefully)
+
+Q.9->What are functions in C? Explain function declaration, definition, and how to call a function. Provide examples.
+ANS->A function is a block of code that performs a specific task, helps reuse code, and makes programs organized.
+
+Q.10->Explain the concept of arrays in C. Differentiate between one-dimensional and multi-dimensional arrays with examples.
+ANS->>An array in C is a collection of elements of the same data type stored in contiguous memory locations.
+Arrays are used to store multiple values in a single variable instead of declaring separate variables for each value.
+
+Q.11->Explain what pointers are in C and how they are declared and initialized. Why are pointers important in C?
+ANS->A pointer is a variable that stores the memory address of another variable instead of storing the value directly.
+
+Q.12->Explain string handling functions like strlen(), strcpy(), strcat(), strcmp(), and strchr(). Provide examples of when these functions are useful.
+ANS->strlen() Length of string	size_t	Validate input length
+strcpy() Copy string	char*	Duplicate strings
+strcat() Concatenate strings	char*	Build messages
+strcmp() Compare strings	int	Check password, sort strings
+strchr() Find character	char*	Search character in text
+
+Q.13->Explain the concept of structures in C. Describe how to declare, initialize, and access structure members.
+ANS->A structure is a user-defined data type in C that allows you to group different types of variables under a single name. It’s useful when you want to represent a real-world object that has multiple properties.
+
+Q.14->Explain the importance of file handling in C. Discuss how to perform file operations like opening, closing, reading, and writing files.
+ANS->File handling allows a program to store data permanently in files, rather than losing it when the program ends. This is crucial for real-world applications like:
+Saving user data (profiles, game progress).
+Reading configuration files for software.
+Logging events or errors in applications.
+Processing large datasets for scientific or business purposes.

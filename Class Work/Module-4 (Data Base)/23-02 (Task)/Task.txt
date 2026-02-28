@@ -1,0 +1,12 @@
+
+1.Create a database with the name of logitech
+2.Create a table with the name of models
+col:id,model_name,model_price
+3.add column manufacturer
+4.add column location
+5.insert 5 models
+6.update model price
+7.delete model which have a minimum price
+8.select Model according to order
+9.create trigger for insert,update and delete which can store actions
+10.GENERATE SQL FILE and submit that  
