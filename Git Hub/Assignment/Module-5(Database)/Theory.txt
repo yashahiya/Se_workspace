@@ -1,0 +1,210 @@
+1.Introduction to SQL 
+
+Q.1-> What is SQL, and why is it essential in database management?
+ANS -> SQL (Structured Query Language) is a standardized programming language used to manage, manipulate, and retrieve data from relational databases.
+
+Q.2-> Explain the difference between DBMS and RDBMS. 
+ANS -> Both DBMS and RDBMS are systems used to store and manage data, but they differ in structure, relationships, and capabilities.
+
+Q.3-> Describe the role of SQL in managing relational databases. 
+ANS -> SQL (Structured Query Language) is the primary language used to manage and operate relational databases. It allows users to define, manipulate, control, and query data stored in tables.
+Relational databases such as MySQL, PostgreSQL, Oracle Database, and Microsoft SQL Server rely on SQL as their core communication language.
+
+Q.4 -> What are the key features of SQL? 
+ANS -> SQL is the standard language used to manage relational databases. Its powerful features make it essential for data storage, retrieval, and management.
+
+2. SQL Syntax 
+
+Q.1-> What are the basic components of SQL syntax? 
+ANS -> SQL syntax refers to the set of rules that define how SQL statements are written and structured. Understanding its basic components helps in writing correct and efficient queries.
+
+Q.2 -> Write the general structure of an SQL SELECT statement. 
+ANS -> The SELECT statement is used to retrieve data from one or more tables in a relational database.
+
+Q.3 -> Explain the role of clauses in SQL statements.
+ANS -> In SQL, clauses are components of a statement that define how data should be selected, filtered, grouped, or sorted. They modify the behavior of SQL commands and help retrieve precise results from a database.
+
+3. SQL Constraints 
+
+Q.1 -> What are constraints in SQL? List and explain the different types of constraints. 
+ANS -> Constraints in SQL are rules applied to table columns to ensure the accuracy, integrity, and reliability of data stored in a database.
+
+Q.2 -> How do PRIMARY KEY and FOREIGN KEY constraints differ? 
+ANS -> Both PRIMARY KEY and FOREIGN KEY are important SQL constraints used to maintain data integrity in relational databases like MySQL, PostgreSQL, Oracle Database, and Microsoft SQL Server.
+
+Q.3 -> What is the role of NOT NULL and UNIQUE constraints?
+ANS -> NOT NULL and UNIQUE are integrity constraints used in SQL to ensure data accuracy and consistency in relational databases such as MySQL, PostgreSQL, Oracle Database, and Microsoft SQL Server.
+
+
+4. Main SQL Commands and Sub-commands (DDL)  
+
+Q.1 -> Define the SQL Data Definition Language (DDL).
+ANS -> SQL Data Definition Language (DDL) is a subset of Structured Query Language (SQL) used to define, create, modify, and delete database structures such as tables, schemas, indexes, and constraints.
+
+Q.2 -> Explain the CREATE command and its syntax. 
+ANS -> The CREATE command is a Data Definition Language (DDL) statement used to create new database objects such as databases, tables, views, indexes, and schemas.
+
+Q.3 -> What is the purpose of specifying data types and constraints during table creation?
+ANS -> When creating a table using the CREATE TABLE statement, specifying data types and constraints ensures that the database stores data correctly, efficiently, and securely.
+
+5. ALTER Command 
+
+Q.1 -> What is the use of the ALTER command in SQL?
+ANS -> The ALTER command is a Data Definition Language (DDL) statement used to modify the structure of an existing database object, such as a table, view, or database.
+
+Q.2 -> How can you add, modify, and drop columns from a table using ALTER?
+ANS -> You can use the ALTER TABLE command to change the structure of an existing table by adding, modifying, or dropping columns.
+
+6. DROP Command  
+
+Q.1 -> What is the function of the DROP command in SQL? 
+ANS -> The DROP command is a Data Definition Language (DDL) statement used to permanently delete a database object from the database.
+
+Q.2 -> What are the implications of dropping a table from a database? 
+ANS -> Dropping a table using the DROP TABLE command has serious and permanent consequences.
+
+7. Data Manipulation Language (DML) 
+
+Q.1 -> Define the INSERT, UPDATE, and DELETE commands in SQL.
+ANS -> These commands are part of Data Manipulation Language (DML) in SQL. They are used to manage the data stored inside tables, not the structure.
+
+Q.2 -> What is the importance of the WHERE clause in UPDATE and DELETE operations?
+ANS -> The WHERE clause is used to specify which rows should be affected by an UPDATE or DELETE statement.
+
+8. Data Query Language (DQL) 
+
+Q.1 -> What is the SELECT statement, and how is it used to query data?
+ANS -> The SELECT statement is used to retrieve (query) data from one or more tables in a database.
+
+Q.2 -> Explain the use of the ORDER BY and WHERE clauses in SQL queries.
+ANS -> Both WHERE and ORDER BY are commonly used with the SELECT statement to refine query results.
+
+9. Data Control Language (DCL) 
+
+Q.1 -> What is the purpose of GRANT and REVOKE in SQL? 
+ANS -> GRANT and REVOKE are part of Data Control Language (DCL) in SQL.They are used to control user access and permissions on database objects.
+
+Q.2 -> How do you manage privileges using these commands? 
+ANS -> Privileges in SQL are managed by assigning and removing permissions on database objects using the GRANT and REVOKE commands.
+
+10. Transaction Control Language (TCL)  
+
+Q.1 -> What is the purpose of the COMMIT and ROLLBACK commands in SQL? 
+ANS -> COMMIT and ROLLBACK are part of Transaction Control Language (TCL) in SQL.They are used to manage transactions, ensuring data integrity and consistency.
+
+Q.2 -> Explain how transactions are managed in SQL databases. 
+ANS -> A transaction in SQL is a sequence of one or more operations (such as INSERT, UPDATE, or DELETE) executed as a single unit of work.
+
+11. SQL Joins 
+
+Q.1 -> Explain the concept of JOIN in SQL. What is the difference between INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN? 
+ANS -> A JOIN in SQL is used to combine rows from two or more tables based on a related column between them
+
+Q.2 -> How are joins used to combine data from multiple tables?
+ANS -> In relational databases, data is often stored in separate tables to reduce redundancy and maintain organization.
+
+
+12. SQL Group By 
+
+Q.1 -> What is the GROUP BY clause in SQL? How is it used with aggregate functions? 
+ANS -> The GROUP BY clause is used to group rows that have the same values in specified columns into summary rows.
+
+Q.2 -> Explain the difference between GROUP BY and ORDER BY.
+ANS -> Both GROUP BY and ORDER BY are used in SELECT queries, but they serve different purposes.Used to group rows with the same values in specified columns.Used to sort the result set in ascending (ASC) or descending (DESC) order.
+
+13. SQL Stored Procedure 
+
+Q.1-> What is a stored procedure in SQL, and how does it differ from a standard SQL query? 
+ANS -> A stored procedure is a precompiled collection of one or more SQL statements that is stored in the database and can be executed whenever needed.
+
+Q.2 -> Explain the advantages of using stored procedures.
+ANS -> A stored procedure is a precompiled set of SQL statements stored in the database. It offers several important advantages in database management and application development.
+
+14. SQL View  
+ 
+Q.1 -> What is a view in SQL, and how is it different from a table? 
+ANS -> A view is a virtual table in SQL that is based on the result of a SELECT query.
+
+Q.2 -> Explain the advantages of using views in SQL databases.
+ANS -> A view is a virtual table based on a SELECT query. It provides several benefits in database design, security, and usability.
+
+15. SQL Triggers 
+
+Q.1 -> What is a trigger in SQL? Describe its types and when they are used.
+ANS -> A trigger is a special type of stored program in SQL that automatically executes (fires) in response to specific events on a table or view.
+
+Q.2 -> Explain the difference between INSERT, UPDATE, and DELETE triggers.
+ANS -> Triggers are automatic actions that execute in response to specific events on a table.The difference between INSERT, UPDATE, and DELETE triggers depends on the event that activates them.
+
+16. Introduction to PL/SQL 
+
+Q.1 -> What is PL/SQL, and how does it extend SQL's capabilities?
+ANS -> PL/SQL (Procedural Language/SQL) is Oracle Corporation’s procedural extension to SQL. It is primarily used in the Oracle Corporation database.
+
+Q.2 -> List and explain the benefits of using PL/SQL. 
+ANS -> Improved Performance,Procedural Capabilities,Exception Handling,Modularity and Reusability
+
+17. PL/SQL Control Structures 
+
+Q.1 -> What are control structures in PL/SQL? Explain the IF-THEN and LOOP control structures.
+ANS -> control structures are programming constructs that control the flow of execution of statements.They allow you to:Make decisions,Repeat actions,Control program logic
+
+Q.2 -> How do control structures in PL/SQL help in writing complex queries?
+ANS -> control structures such as IF, LOOP, WHILE, and FOR allow you to add programming logic around SQL statements.
+
+18. SQL Cursors 
+
+Q.1 -> What is a cursor in PL/SQL? Explain the difference between implicit and explicit cursors.
+ANS -> In PL/SQL , a cursor is a pointer to the result set of a SQL query.When a SELECT statement returns multiple rows, a cursor allows PL/SQL to:Process rows one by one,Retrieve query results into variables,Perform row-by-row operations
+
+Q.2 -> When would you use an explicit cursor over an implicit one?
+ANS -> In PL/SQL , you choose between implicit and explicit cursors based on how much control you need over the query result.You should use an explicit cursor when you need more control and when working with multiple rows.
+
+19. Rollback and Commit Savepoint 
+
+Q.1 -> Explain the concept of SAVEPOINT in transaction management. How do ROLLBACK and COMMIT interact with savepoints?
+ANS -> In SQL, a SAVEPOINT is a marker or point within a transaction that allows you to partially undo changes without rolling back the entire transaction.It is part of Transaction Control Language (TCL) along with COMMIT and ROLLBACK.
+
+Q.2 -> When is it useful to use savepoints in a database transaction?
+ANS -> A savepoint in SQL is a marker within a transaction that allows partial rollback. They are especially useful in complex transactions where multiple operations occur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
