@@ -1,0 +1,60 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main()
+{
+    FILE *yash;
+    int choice;
+    char name[20],email[20],pass[20],loginpass[20],loginemail[20];
+    
+
+    printf("\n Press 1 For Signup \n Press 2 For Login");
+    scanf("%d",&choice);
+
+    switch(choice)
+    {
+        case 1:
+        yash = fopen("details.txt","w");
+        printf("\n Enter Your Name : ");
+        scanf("%s",&name); 
+        printf("\n Enter Your E-mail : ");
+        scanf("%s",&email);
+        printf("\n Enter Your Password : ");
+        scanf("%s",&pass);
+        
+        fprintf(yash,"Name:%s \nEmail:%s \nPass:%s",name,email,pass);
+        fclose(yash);
+        break;
+        
+        case 2:
+        yash=fopen("details.txt","a");
+        if(yash==NULL)
+        {
+            printf("No User Found Please Signup First");
+            fclose(yash);
+        }
+        else
+        {
+            printf("\n Enter Your E-mail : ");
+            scanf("%s",&loginemail);
+            printf("\n Enter Your Password : ");
+            scanf("%s",&loginpass);
+            
+            while(fscanf(yash,"%s\n%s\n",&email,&pass) != EOF)
+            {
+                if(strcmp(loginemail,email)!=0 && strcmp(loginpass,pass)!=0)
+                {
+                    printf("true");
+                }
+                else
+                {
+                    printf("true");
+                }
+            }
+           
+        }
+       
+            
+        }
+    }
+    

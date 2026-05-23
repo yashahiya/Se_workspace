@@ -1,0 +1,16 @@
+DELIMITER $$
+
+	CREATE TRIGGER delete_trigger AFTER DELETE ON models FOR EACH ROW
+    
+    BEGIN 
+    	INSERT INTO trigger_data set details='delete a  model' ,name =model.name;
+    END $$
+
+DELIMITER ;
+
+
+
+
+
+
+DELETE from models ORDER BY model_price ASC  LIMIT 1

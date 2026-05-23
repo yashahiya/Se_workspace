@@ -1,57 +1,33 @@
-#include<stdio.h>
 #include<conio.h>
-int main()
+#include<stdio.h>
+void main()
 {
-    int choice;
-    char name[20],email[20],pass[20];
-    FILE *yash;
-
-    printf("\n Press 1 For Signup \n Press 2 For Login");
-    scanf("%d",&choice);
-
-    switch(choice)
-    {
-        case 1:
-        printf("\n Enter Your Name : ");
-        scanf("%s",&name); 
-        printf("\n Enter Your E-mail : ");
-        scanf("%s",&email);
-        printf("\n Enter Your Password : ");
-        scanf("%s",&pass);
-
-        yash=fopen("details.txt","w");
-        fprintf(yash,name);
-        fprintf(yash,email);
-        fprintf(yash,pass);
-        break;
+    int i,num;
+    char name[20],email[20],pass[20],filename[20],username[20];
+    FILE *data;
     
-        fclose(yash);
-
-        
-        
-        case 2:
-        printf("\n Enter Your E-mail : ");
-        scanf("%s",&email);
-        printf("\n Enter Your Password : ");
-        scanf("%s",&pass);
-        break;
-
-        yash=fopen("details.txt","r");
-        puts("\n\nemail\t\tpassword\n");
-        while (!feof(yash));
-        {
-            if (email==email && pass==pass)
-            {
-                printf("\nlogin successful");
-            }
-            else
-            {
-                printf("Login Failed");
-            }
-        }
+    printf("enter the file name : ");
+    gets(filename);
+    data=fopen(filename,"w");
+    printf("\n press 1 for signup \n prees 2 for login : ");
+    scanf("%d",&num);
+    
+    switch(num)
+    {
+    case 1 :printf("enter your name : ");
+            scanf("%s",&name);
+            printf("enter your email : ");
+            scanf("%s",&email);
+            printf("enter your password : ");
+            scanf("%s",&pass);
+            fprintf(data,"%s%s%s",name,email,pass);
+            break;
+    case 2 :printf("enter your username : ");
+            scanf("%s",&username);
+            printf("enter your password : ");
+            scanf("%s",&pass); 
+            fprintf(data,"%s%s",username,pass);
+            break;
     }
+     
 }
-
-
-
-        
